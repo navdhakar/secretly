@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffff;
+}
+.joinInnerContainer {
+  min-width: 400px;
+}
+.heading {
+  color: #1877f2;
+  font-size: 2.5em;
+
+  border-bottom: #1877f2;
+  font-family: "Nunito Sans", sans-serif;
+}
