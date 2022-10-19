@@ -13,7 +13,7 @@ and through query strings we pass in the data through the chat, once we have the
 export default function App() {
   useEffect(() => {
     console.log("app");
-    ReactGa.initialize("G-V6NE5DJRE0");
+    ReactGa.initialize("UA-214532842-4");
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
   return (

@@ -9,12 +9,16 @@ const ProjectInfo = () => (
   <div className="rightContainer">
     <img src={chat} alt="online" style={{ width: "500px" }} />
 
-    <Typography
-      variant="h4"
-      sx={{ color: "#1877F2", fontFamily: "Nunito Sans, sans-serif" }}
+    <div
+      style={{
+        padding: "20px",
+        fontFamily: "Nunito Sans, sans-serif",
+        color: "#1877F2",
+        fontSize: "30px",
+      }}
     >
       Create or Join temporary chatrooms to talk privately and anonymously.
-    </Typography>
+    </div>
     <Typography
       variant="body"
       sx={{ color: "#1877F2", fontFamily: "Nunito Sans, sans-serif" }}

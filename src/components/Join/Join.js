@@ -40,7 +40,17 @@ const Join = () => {
           <ProjectInfo />
         </div>
         <div className="joinInnerContainer" style={{ flex: 1 }}>
-          <h1 className="heading">Join or Create Room!</h1>
+          <div
+            style={{
+              padding: "20px",
+              fontFamily: "Nunito Sans, sans-serif",
+              color: "#1877F2",
+              fontSize: "40px",
+              fontWeight: "bold",
+            }}
+          >
+            Join or Create!
+          </div>
           {/*When users type something in this input an event occurs and we can grab data from it
             event.target.value holds our data, and then we set the output of this input to the corresponding variable.
             I also use two hooks here for the name/room data.
