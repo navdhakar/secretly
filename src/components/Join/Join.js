@@ -27,10 +27,7 @@ const Join = () => {
         <img src={logo} alt="logo" style={{ width: "250px" }} />
       </div>
 
-      <div
-        className="joinOuterContainer"
-        style={{ display: "flex", padding: 10 }}
-      >
+      <div className="joinOuterContainer" style={{ display: "flex" }}>
         <div
           style={{
             flex: 2,

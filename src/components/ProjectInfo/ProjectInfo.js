@@ -7,14 +7,14 @@ import chat from "../../icons/chat.png";
 
 const ProjectInfo = () => (
   <div className="rightContainer">
-    <img src={chat} alt="online" style={{ width: "500px" }} />
+    <img src={chat} alt="online" class="image-hero" />
 
     <div
       style={{
         padding: "20px",
         fontFamily: "Nunito Sans, sans-serif",
         color: "#1877F2",
-        fontSize: "30px",
+        fontSize: "40px",
       }}
     >
       Create or Join temporary chatrooms to talk privately and anonymously.

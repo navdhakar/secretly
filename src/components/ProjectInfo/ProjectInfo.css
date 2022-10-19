@@ -1,7 +1,7 @@
 .rightContainer {
   display: flex;
   font-family: "Ubuntu", sans-serif;
-  margin-left: 50px;
+
   justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -9,5 +9,11 @@
 #github {
   color: rgb(231, 206, 206);
 }
-@media (min-width: 320px) and (max-width: 1200px) {
+.image-hero {
+  width: 500px;
+}
+@media (max-width: 400px) {
+  .image-hero {
+    width: 100%;
+  }
 }
