@@ -6,11 +6,11 @@ import url from "socket.io-client/lib/url";
 import chat from "../../icons/chat.png";
 
 const ProjectInfo = () => (
-  <div className="rightContainer" style={{ height: "100%" }}>
-    <img src={chat} alt="online" />
+  <div className="rightContainer">
+    <img src={chat} alt="online" style={{ width: "500px" }} />
 
     <Typography
-      variant="h3"
+      variant="h4"
       sx={{ color: "#1877F2", fontFamily: "Nunito Sans, sans-serif" }}
     >
       Create or Join temporary chatrooms to talk privately and anonymously.
