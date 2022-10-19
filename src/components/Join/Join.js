@@ -49,7 +49,7 @@ const Join = () => {
               fontWeight: "bold",
             }}
           >
-            Join or Create!
+            Join or Create Room!
           </div>
           {/*When users type something in this input an event occurs and we can grab data from it
             event.target.value holds our data, and then we set the output of this input to the corresponding variable.
