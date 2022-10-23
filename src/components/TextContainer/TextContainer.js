@@ -52,7 +52,7 @@ const TextContainer = ({ users, name, room, userid }) => (
             fontFamily: "Nunito Sans, sans-serif",
           }}
         >
-          People active in room
+          People active in room(share room code to invite people).
         </Typography>
         <div className="activeContainer">
           <Typography
