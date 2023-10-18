@@ -42,7 +42,7 @@ const Chat = ({ location }) => {
 
   const [messages, setMessages] = useState([]);
 
-  const ENDPOINT = "https://secretly-back.herokuapp.com/";
+  const ENDPOINT = "https://secrectly-back.onrender.com/";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
